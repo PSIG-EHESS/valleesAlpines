@@ -1,0 +1,31 @@
+body {
+  display: flex;
+  margin-top: 50px;
+  align-items: center;
+  flex-direction: column;
+  background-image: url("background.jpg");
+  background-size: cover;
+}
+
+#title {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  text-align: center;
+  font-weight: bold;
+}
+
+#map_container{
+  margin-top: 5px;
+  margin-bottom: 5px;
+}
+
+#mapid {
+  height: 400px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.btn.btn-primary[disabled] {
+    background-color: #D3D3D3;
+    border-color: #D3D3D3;
+}
